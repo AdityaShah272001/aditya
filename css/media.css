@@ -1,0 +1,158 @@
+@media(max-width:1100px) {
+    body.open_menu {
+        overflow: hidden;
+    }
+
+    ul.nav-menu {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 76px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 99;
+    }
+
+
+    ul.nav-menu li {
+        display: block;
+        /* margin: 50px 0; */
+        line-height: 30px;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        padding-top: 32px;
+        justify-content: normal;
+    }
+
+    ul.nav-menu li a {
+        font-size: 16px;
+        color: #4B4AEF;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-menu.menu-open {
+        left: 0;
+        background-color: white;
+    }
+}
+
+@media(max-width:992px) {
+
+    .main-digital,
+    .main-services,
+    .main-contact,
+    .main-footer {
+        flex-wrap: wrap;
+    }
+
+    .picture-digital,
+    .content-digital,
+    .ux-digital,
+    .img-contact,
+    .content-contact {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .part-1 {
+        max-width: 46%;
+        width: 100%;
+    }
+
+    .part-2 {
+        max-width: 40%;
+        width: 100%;
+    }
+
+    .part-3 {
+        max-width: 40%;
+        width: 100%;
+    }
+
+    .main-footer {
+        gap: 50px;
+    }
+
+    .design-future h1 {
+        font-size: 48px;
+    }
+
+    .list-copy ul li a {
+        font-size: 13px;
+    }
+
+    .digital-agency,
+    .services,
+    section.portfolio,
+    .feedback,
+    .frequently,
+    footer {
+        padding: 50px 0px;
+    }
+
+    .firstpart-heading {
+        margin: 0 0 15px 0;
+    }
+
+    .intro h3 {
+        margin-bottom: 15px;
+        font-size: 36px;
+    }
+
+    .content-contact {
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+
+    #accordion {
+        margin: 15px auto 0px auto;
+    }
+}
+
+@media(max-width:768px) {
+    .main-copy {
+        flex-wrap: wrap;
+    }
+
+    .intro h3 {
+        font-size: 24px;
+    }
+
+    .intro h3 br {
+        display: none;
+    }
+}
+
+@media(max-width:540px) {
+    .design-future h1 {
+        font-size: 24px;
+    }
+
+    .first-rect {
+        max-width: 100%;
+    }
+
+    .buttons {
+        flex-wrap: wrap;
+    }
+
+    .part-1 {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .part-2 {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .heading-footer h3 {
+        white-space: nowrap;
+    }
+}
